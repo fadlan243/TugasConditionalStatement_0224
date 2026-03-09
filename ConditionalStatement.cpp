@@ -45,5 +45,8 @@ int main(){
     // Menghitung BMI
     bmi = hitungBMI(berat, tinggi);
 
+    // Menentukan status
+    status = statusBMI(bmi);
+
     return 0;
 }
