@@ -15,7 +15,18 @@ string Status_lulus(float r){
 int main(){
     float nilBI, nilMT, rerata;
 
+    cout << "Masukkan nilai Bahasa Inggris = ";
+    cin >> nilBI;
 
+    cout << "Masukkan nilai Matematika = ";
+    cin >> nilMT;
+
+    rerata = Rata_rata(nilBI, nilMT);
+
+    cout << "Status kelulusan = ";
+    cout << Status_lulus(rerata);
+    cout << ", dengan nilai rerata = ";
+    cout << rerata << endl;
 
     return 0;
 }
