@@ -42,5 +42,8 @@ int main(){
     // Memanggil prosedur input
     inputData(berat, tinggi);
 
+    // Menghitung BMI
+    bmi = hitungBMI(berat, tinggi);
+
     return 0;
 }
